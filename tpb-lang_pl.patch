@@ -1,0 +1,11 @@
+--- tpb-0.5.1/configure.in.orig	Fri Apr 11 09:34:28 2003
++++ tpb-0.5.1/configure.in	Fri Apr 11 09:33:39 2003
+@@ -28,7 +28,7 @@
+ AC_CHECK_HEADERS([fcntl.h getopt.h stdio.h stdlib.h strings.h sys/stat.h sys/types.h unistd.h wait.h])
+ 
+ # Languages which your application supports
+-ALL_LINGUAS="da de"
++ALL_LINGUAS="da de pl"
+ AM_GNU_GETTEXT
+                                                                                 
+ AC_OUTPUT([
