@@ -2,10 +2,11 @@ Summary:	Utility to enable the IBM ThinkPad(tm) special keys
 Summary(pl):	Narzêdzie uaktywniaj±ce klawisze specjalne w notebookach IBM ThinkPad(tm)
 Name:		tpb
 Version:	0.5.1
-Release:	0.2
+Release:	0.3
 License:	GPL
 Group:		Applications/System
 Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.gz
+Source1:	%{name}-pl.po
 URL:		http://savannah.gnu.org/projects/tpb/
 BuildRequires:	xosd-devel >= 2.0.0
 Requires:	xosd >= 2.0.0
@@ -25,8 +26,15 @@ wpsiera równie¿ OSD (d¼wiêk, kontrast LCD).
 %setup -q
 
 %build
+install %{SOURCE1} po/pl.po
 %configure2_13
+
+#lang pl
+perl -pi -e 's/da.po de.po/da.po de.po pl.po/' po/Makefile
+perl -pi -e 's/da.gmo de.gmo/da.gmo de.gmo pl.gmo/' po/Makefile
+
 %{__make}
+
 
 %install
 rm -rf $RPM_BUILD_ROOT
