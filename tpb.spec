@@ -12,7 +12,7 @@ Patch0:		%{name}-lang_pl.patch
 URL:		http://savannah.gnu.org/projects/tpb/
 BuildRequires:	xosd-devel >= 2.0.0
 Requires:	xosd >= 2.0.0
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This program enables the IBM Thinkpad(tm) special keys. It is possible
