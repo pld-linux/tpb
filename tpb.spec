@@ -22,7 +22,7 @@ to bind a program to the ThinkPad button. It has a on-screen display
 %description -l pl
 Program ten uaktywnia klawisze specjalne w notebookach IBM
 ThinkPad(tm). Umo¿liwia równie¿ programowanie przycisków specjalnych,
-wpsiera równie¿ OSD (d¼wiêk, kontrast LCD).
+wspiera równie¿ OSD (d¼wiêk, kontrast LCD).
 
 %prep
 %setup -q
