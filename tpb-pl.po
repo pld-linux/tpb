@@ -1,0 +1,468 @@
+# Polish translations for tpb
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-03-13 08:02+0100\n"
+"PO-Revision-Date: 2003-04-10 14:29+0100\n"
+"Last-Translator: Micha³ Podyma <misiek@r-h.pl>\n"
+"Language-Team: Polish <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/tpb.c:157
+msgid "ThinkPad button pressed"
+msgstr "ThinkPad - przycisk naci¶niêty"
+
+#: src/tpb.c:175
+#, c-format
+msgid "Zoom is %s\n"
+msgstr "Zbli¿enie w %s\n"
+
+#: src/tpb.c:175 src/tpb.c:251 src/tpb.c:318
+msgid "on"
+msgstr "w³±czony"
+
+#: src/tpb.c:175 src/tpb.c:251 src/tpb.c:318
+msgid "off"
+msgstr "wy³±czony"
+
+#: src/tpb.c:185
+msgid "Zoom on"
+msgstr "Zbli¿enie w³±czone"
+
+#: src/tpb.c:185
+msgid "Zoom off"
+msgstr "Zbli¿enie wy³±czone"
+
+#: src/tpb.c:195
+msgid "Home button pressed"
+msgstr "Przycisk Home wci¶siêty"
+
+#: src/tpb.c:214
+msgid "Search button pressed"
+msgstr "Przycisk Szukaj wci¶niêty"
+
+#: src/tpb.c:233
+msgid "Mail button pressed"
+msgstr "Przycisk poczta wci¶niety"
+
+#: src/tpb.c:251
+#, c-format
+msgid "ThinkLight is %s\n"
+msgstr "ThinkLampki s± %s\n"
+
+#: src/tpb.c:261
+msgid "ThinkLight on"
+msgstr "ThinkLapmki w³±czone"
+
+#: src/tpb.c:261
+msgid "ThinkLight off"
+msgstr "ThinkLapmki wy³±czone"
+
+#: src/tpb.c:285
+msgid "LCD on, CRT off"
+msgstr "LCD w³±czony, CRT wy³±czony"
+
+#: src/tpb.c:290
+msgid "LCD off, CRT on"
+msgstr "LCD wy³±czony, CRT w³±czony"
+
+#: src/tpb.c:295
+msgid "LCD on, CRT on"
+msgstr "LCD w³±czony, CRT w³±czony"
+
+#: src/tpb.c:300
+#, c-format
+msgid "Display changed: %s\n"
+msgstr "Wy¶iwetlacz zmieniony: %s\n"
+
+#: src/tpb.c:309
+msgid "Display"
+msgstr "Wy¶wietlacz"
+
+#: src/tpb.c:318
+#, c-format
+msgid "HV Expansion is %s\n"
+msgstr "HV rozszerzenie jest %s\n"
+
+#: src/tpb.c:328
+msgid "HV Expansion on"
+msgstr "HV rozszerzenie jest w³±czone"
+
+#: src/tpb.c:328
+msgid "HV Expansion off"
+msgstr "HV rozszerzenie jest wy³±czone"
+
+#: src/tpb.c:337
+#, c-format
+msgid "Brightness changed: Level %d\n"
+msgstr "Jasno¶c zmieniona: Poziom %d\n"
+
+#: src/tpb.c:349
+msgid "Brightness"
+msgstr "Jasno¶æ"
+
+#: src/tpb.c:373
+#, c-format
+msgid "Volume changed: Level %d\n"
+msgstr "G³o¶no¶æ zmieniona: Poziom %d\n"
+
+#: src/tpb.c:387
+msgid "Volume"
+msgstr "G³o¶no¶æ"
+
+#: src/tpb.c:396 src/tpb.c:419
+msgid "Mute on"
+msgstr "Wyciszenie w³±czone"
+
+#: src/tpb.c:396 src/tpb.c:423
+msgid "Mute off"
+msgstr "Wyciszenie wy³±czone"
+
+#: src/tpb.c:433
+#, c-format
+msgid "Power line changed: %s\n"
+msgstr "Zasilanie: %s\n"
+
+#: src/tpb.c:433 src/tpb.c:443
+msgid "AC connected"
+msgstr "Zasilanie zewnêtrzne podpiête"
+
+#: src/tpb.c:433 src/tpb.c:443
+msgid "AC disconnected"
+msgstr "Zasilanie zewnêtrzne od³±czone"
+
+#: src/tpb.c:453
+msgid "PM AC high"
+msgstr "PM AC wysoki"
+
+#: src/tpb.c:458
+msgid "PM AC auto"
+msgstr "PM AC auto"
+
+#: src/tpb.c:463
+msgid "PM AC manual"
+msgstr "PM AC rêczny"
+
+#: src/tpb.c:468
+msgid "PM AC unknown"
+msgstr "PM AC nieznany"
+
+#: src/tpb.c:472
+#, c-format
+msgid "Power management mode AC changed: %s\n"
+msgstr "Zarz±dzanie energi± tryb AC zmienione: %s\n"
+
+#: src/tpb.c:493
+msgid "PM battery high"
+msgstr "PM bateria wysoki"
+
+#: src/tpb.c:498
+msgid "PM battery auto"
+msgstr "PM bateria auto"
+
+#: src/tpb.c:503
+msgid "PM battery manual"
+msgstr "PM battery rêczny"
+
+#: src/tpb.c:508
+msgid "PM battery unknown"
+msgstr "PM battery nieznany"
+
+#: src/tpb.c:512
+#, c-format
+msgid "Power management mode battery changed: %s\n"
+msgstr "Zarz±dzanie energi± tryb baterii zmieniony: %s\n"
+
+#: src/tpb.c:557 src/tpb.c:574
+msgid "Unable to fork daemon"
+msgstr "Nie moge uruchmoiæ demona w tle"
+
+#: src/tpb.c:582
+msgid "Daemon started."
+msgstr "Demon uruchomiony."
+
+#: src/tpb.c:621
+msgid "Unable to initialize xosd. Running without onsceen display.\n"
+msgstr "Nie moge zainicjowaæ xosd. Uruchamiam bez OSD\n"
+
+#: src/tpb.c:628
+#, c-format
+msgid "Invalid xosd font \"%s\". Even the default font \"%s\" "
+msgstr "Niew³a¶ciwy font xosd \"%s\", standardowy równie¿ \"%s\" "
+
+#: src/tpb.c:630
+#, c-format
+msgid "is not available. Please add an existing font to your %s file.\n"
+msgstr "nie dostêpny. Prosze dodaj dzia³aj±cy font do %s pliku.\n"
+
+#: src/tpb.c:632
+msgid "Running without onsceen display.\n"
+msgstr "Uruchamiam bez OSD.\n"
+
+#: src/tpb.c:648
+#, c-format
+msgid "Invalid xosd font \"%s\". Running with the default \"%s\".\n"
+msgstr "Niew³a¶ciwy font xosd \"%s\", wybieram standardowy \"%s\".\n"
+
+#: src/tpb.c:655
+#, c-format
+msgid "Invalid xosd color \"%s\". Running with the default \"%s\".\n"
+msgstr "Niew³a¶ciwy kolor xosd \"%s\". Wybieram standardowy \"%s\".\n"
+
+#: src/tpb.c:662
+#, c-format
+msgid "Invalid xosd timeout \"%d\". Running with the default \"%d\".\n"
+msgstr "Nieprawid³owy timeout xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:669
+#, c-format
+msgid "Invalid xosd position \"%d\". Running with the default \"%d\".\n"
+msgstr "Nieprawid³owa pozycja xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:677
+#, c-format
+msgid "Invalid horizontal xosd offset \"%d\". Running with the default \"%d\".\n"
+msgstr "Nieprawid³owe po³o¿enie poziome xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:684 src/tpb.c:691
+#, c-format
+msgid "Invalid vertical xosd offset \"%d\". Running with the default \"%d\".\n"
+msgstr "Nieprawid³owe po³o¿enie pionowe xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:699
+#, c-format
+msgid "Invalid shadow xosd offset \"%d\". Running with the default \"%d\".\n"
+msgstr "Nieprawid³owe po³o¿enie cienia xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:707
+#, c-format
+msgid "Invalid xosd alignment \"%d\". Running with default \"%d\".\n"
+msgstr "Nieprawid³owe po³o¿enie xosd \"%d\". Wybieram standardowy \"%d\".\n"
+
+#: src/tpb.c:726 src/tpb.c:885
+#, c-format
+msgid "Unable to open device %s: "
+msgstr "Nie mogê otworzyæ urz±dzenia %s: "
+
+#: src/tpb.c:733 src/tpb.c:900
+#, c-format
+msgid "Unable to read from device %s: "
+msgstr "Nie mogê czytaæ z urz±dzenia %s: "
+
+#: src/tpb.c:740
+#, c-format
+msgid "Unable to close device %s: "
+msgstr "Nie mogê zamkn±æ urz±dzenia %s: "
+
+#: src/tpb.c:887
+#, c-format
+msgid "To use mixersteps other than %d you need write access to %s.\n"
+msgstr "Aby u¿yæ potencjometra innego ni¿ %d potrzebujesz praw zapisu do %s.\n"
+
+#: src/tpb.c:893 src/tpb.c:911
+#, c-format
+msgid "Unable to seek device %s: "
+msgstr "Nie mogê wyszukaæ urz±dzenia %s: "
+
+#: src/tpb.c:918
+#, c-format
+msgid "Unable to write to device %s: "
+msgstr "Nie mogê zapisywaæ do urz±dzenia %s: "
+
+#: src/tpb.c:937
+#, c-format
+msgid "Unable to open mixer device %s: "
+msgstr "Nie mogê otworzyæ urz±dzenia miksera %s: "
+
+#: src/tpb.c:944
+#, c-format
+msgid "Unable to read volume from mixer device %s: "
+msgstr "Nie mogê odczytaæ ustawieñ g³osu z miksera %s: "
+
+#: src/tpb.c:968
+#, c-format
+msgid "Unable to write volume to mixer device %s: "
+msgstr "Nie mogê zapisaæ ustawieñ g³o¶no¶ci w mikserze %s: "
+
+#: src/tpb.c:975
+#, c-format
+msgid "Unable to close mixer device %s: "
+msgstr "Nie mogê zamkn±æ miksera %s: "
+
+#: src/cfg.c:111 src/cfg.c:167
+msgid "Argument in configuration too long!\n"
+msgstr "Zbyt d³ugi argument w konfiguracji!\n"
+
+#: src/cfg.c:155
+msgid "Keyword in configuration too long!\n"
+msgstr "Zbyt d³ugie s³owo kluczowe w konfiguracji!\n"
+
+#: src/cfg.c:191 src/cfg.c:203 src/cfg.c:210 src/cfg.c:214 src/cfg.c:411 src/cfg.c:429 src/cfg.c:439 src/cfg.c:449 src/cfg.c:459 src/cfg.c:469 src/cfg.c:507 src/cfg.c:518 src/cfg.c:528
+msgid "Not enough memory"
+msgstr "Brak pamiêci"
+
+#: src/cfg.c:375
+#, c-format
+msgid "Illegal apm state: %s\n"
+msgstr "Nieprawid³owy stan apm: %s\n"
+
+#: src/cfg.c:399
+#, c-format
+msgid "Illegal powermgt state: %s\n"
+msgstr "Nieprawid³owy stan zarz±dzania energi±: %s\n"
+
+#: src/cfg.c:419
+#, c-format
+msgid "Illegal polltime: %s\n"
+msgstr "Nieprawid³owy czas oczekiwania: %s\n"
+
+#: src/cfg.c:488
+#, c-format
+msgid "Illegal mixer state: %s\n"
+msgstr "Nieprawid³owy stan miksera: %s\n"
+
+#: src/cfg.c:497
+#, c-format
+msgid "Illegal mixersteps: %s\n"
+msgstr "Nieprawid³owy potencjometr: %s\n"
+
+#: src/cfg.c:536
+#, c-format
+msgid "Illegal xosd timeout: %s\n"
+msgstr "Nieprawid³owy timeout xosd: %s\n"
+
+#: src/cfg.c:544
+#, c-format
+msgid "Illegal xosd offset: %s\n"
+msgstr "Nieprawid³owe po³o¿enie xosd: %s\n"
+
+#: src/cfg.c:552
+#, c-format
+msgid "Illegal xosd shadow offset: %s\n"
+msgstr "Nieprawid³owe po³o¿enie cienia xosd: %s\n"
+
+#: src/cfg.c:560
+#, c-format
+msgid "Illegal xosd vertical offset: %s\n"
+msgstr "Nieprawid³owe pionowe po³o¿enie xosd: %s\n"
+
+#: src/cfg.c:569
+#, c-format
+msgid "Illegal xosd horizontal offset: %s\n"
+msgstr "Nieprawid³owe poziome po³o¿enie xosd: %s\n"
+
+#: src/cfg.c:573
+msgid "Sorry, OSDHORIZONTAL is only supported by xosd 2.0.0 and above.\n"
+msgstr "Przykro mi, OSDHORIZONTAL jest wspierane tylko przez xosd 2.0.0 lub nowsze.\n"
+
+#: src/cfg.c:591
+msgid "Sorry, OSDPOS MIDDLE is only supported by xosd 2.0.0 and above.\n"
+msgstr "Przykro mi, OSDPOS MIDDLE jest wspierane tylko przez xosd 2.0.0 lub nowsze.\n"
+
+#: src/cfg.c:599
+#, c-format
+msgid "Illegal xosd position: %s\n"
+msgstr "Nieprawid³owe po³o¿enie xosd: %s\n"
+
+#: src/cfg.c:625
+#, c-format
+msgid "Illegal xosd alignment: %s\n"
+msgstr "Nieprawid³owe u³o¿enie xosd: %s\n"
+
+#: src/cfg.c:647
+#, c-format
+msgid "Illegal xosd state: %s\n"
+msgstr "Nieprawid³owy stan xosd: %s\n"
+
+#: src/cfg.c:739
+#, c-format
+msgid "Unable to open config file %s: "
+msgstr "Nie mo¿na otworzyæ pliku konfiguracyjnego %s: "
+
+#: src/cfg.c:797
+#, c-format
+msgid ""
+"Usage: %s options\n"
+"\n"
+msgstr ""
+"U¿ycie: %s opcje\n"
+"\n"
+
+#: src/cfg.c:798
+msgid "options:\n"
+msgstr "opcje:\n"
+
+#: src/cfg.c:799
+msgid "   -h, --help           display this help\n"
+msgstr "   -h, --help         wy¶wietl t± pomoc\n"
+
+#: src/cfg.c:800
+msgid "   -d, --daemon         start in daemon mode\n"
+msgstr "   -d, --daemon         uruchom jako demona\n"
+
+#: src/cfg.c:801
+msgid "   -c, --config=FILE    read FILE as additional configuration file\n"
+msgstr "   -c, --config=PLIK    czytaj PLIK jako dodatkow± konfiguracjê\n"
+
+#: src/cfg.c:802
+msgid "   -m, --mixer=STATE    use OSS software mixer [off]\n"
+msgstr "   -m, --mixer=STAN     u¿yj programowego miksera OSS [wy³±czony]\n"
+
+#: src/cfg.c:804
+msgid "   -o, --osd=STATE      show informations as on-screen display [on]\n"
+msgstr "   -o, --osd=STAN       poka¿ informacje na ekranie [w³±czony]\n"
+
+#: src/cfg.c:806
+#, c-format
+msgid "   -p, --poll=DELAY     set delay between polls in microseconds [%d]\n"
+msgstr "   -p, --poll=OPÓ¬NIENIE       ustaw opó¼nienie pomiêdzy zapytaniami w microsekundach [%d]\n"
+
+#: src/cfg.c:807
+msgid "   -t, --thinkpad=CMD   string with command and options that should be executed\n"
+msgstr "   -t, --thinkpad=CMD   ci±g komend i opcji do wykonania\n"
+
+#: src/cfg.c:808
+msgid "                        when ThinkPad button is pressed [none]\n"
+msgstr "			kiedy zostanie wci¶niêty guzik ThinkPad [brak]\n"
+
+#: src/cfg.c:809
+msgid "   -H, --home=CMD       command and options for Home button [none]\n"
+msgstr "   -H, --home=CMD	komendy i opcje dla guzika Home [brak]\n"
+
+#: src/cfg.c:810
+msgid "   -S, --search=CMD     command and options for Search button [none]\n"
+msgstr "   -S, --search=CMD	komendy i opcje dla Guzika Search [brak]\n"
+
+#: src/cfg.c:811
+msgid "   -M, --mail=CMD       command and options for Mail button [none]\n"
+msgstr "   -M, --mail=CMD	komendy i opcje dla guzika Mail [brak]\n"
+
+#: src/cfg.c:812
+msgid "   -C, --callback=CMD   string with command that should be executed for each\n"
+msgstr "   -C, --callback=CMD	ci±g z komendami i opcjami do wykonania dla ka¿dego\n"
+
+#: src/cfg.c:813
+msgid "                        pressed button. It is called with pressed button as\n"
+msgstr "			wci¶niêtego guzika. Wywo³anie z naci¶niêtym guzikiem jako\n"
+
+#: src/cfg.c:814
+msgid "                        first argument and new state as second [none]\n"
+msgstr "			pierwszy argument i nowym stanem jako drugi [brak]\n"
+
+#: src/cfg.c:815
+msgid "   -A, --apm=STATE      poll /proc/apm for apm information [off]\n"
+msgstr "   -A, --apm=STATE	odpytaj /proc/apm o informacje apm [wy³±czony]\n"
+
+#: src/cfg.c:816
+msgid "   -P, --powermgt=STATE display of power management messages [auto]\n"
+msgstr "   -p, --powermgt=STAN wy¶wietlaj wiadomo¶ci zarz±dzania energi± [auto]\n"
+
+#: src/cfg.c:817
+msgid "   -v, --verbose        print information about pressed keys\n"
+msgstr "   -v --verbose		wy¶wietlaj informacje o wci¶niêtych guzikach\n"
+
