@@ -1,14 +1,14 @@
-Summary:	Utility to enable the IBM ThinkPad(tm) special keys.
-Summary(pl):	Narzêdzie uaktywniaj±ce klawisze specjalne w notebookach IBM ThinkPad(tm).
+Summary:	Utility to enable the IBM ThinkPad(tm) special keys
+Summary(pl):	Narzêdzie uaktywniaj±ce klawisze specjalne w notebookach IBM ThinkPad(tm)
 Name:		tpb
 Version:	0.5.0
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-URL:		http://savannah.gnu.org/projects/tpb
 Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.gz
-Requires:	xosd
+URL:		http://savannah.gnu.org/projects/tpb/
 BuildRequires:	xosd-devel
+Requires:	xosd
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc doc/callback_example.sh ChangeLog CREDITS README TODO doc/tpbrc
-%doc %{_mandir}/man1/*
-%config(noreplace,missingok) %{_sysconfdir}/tpbrc
+%config(noreplace,missingok) %verify(not size mtime md5) %{_sysconfdir}/tpbrc
 %attr(755,root,root) %{_bindir}/*
+%{_mandir}/man1/*
