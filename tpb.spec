@@ -6,6 +6,7 @@ Release:	0.4
 License:	GPL
 Group:		Applications/System
 Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	62470b1aeeca60d92e403224a90721d1
 Source1:	%{name}-pl.po
 Patch0:		%{name}-lang_pl.patch
 URL:		http://savannah.gnu.org/projects/tpb/
