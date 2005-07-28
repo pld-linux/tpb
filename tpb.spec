@@ -1,12 +1,12 @@
 Summary:	Utility to enable the IBM ThinkPad(tm) special keys
 Summary(pl):	Narzêdzie uaktywniaj±ce klawisze specjalne w notebookach IBM ThinkPad(tm)
 Name:		tpb
-Version:	0.6.3
+Version:	0.6.4
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://savannah.nongnu.org/download/tpb/%{name}-%{version}.tar.gz
-# Source0-md5:	fc11a0af992178e4013fd9c041dbaa7e
+# Source0-md5:	563b544fbedcc1763130a0bca1ad63b6
 Source1:	%{name}-pl.po
 Patch0:		%{name}-lang_pl.patch
 URL:		http://savannah.gnu.org/projects/tpb/
