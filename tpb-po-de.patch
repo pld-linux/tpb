@@ -1,0 +1,90 @@
+diff -urN tpb-0.6.4.org/po/de.po tpb-0.6.4/po/de.po
+--- tpb-0.6.4.org/po/de.po	2005-07-25 10:34:22.000000000 +0200
++++ tpb-0.6.4/po/de.po	2006-03-25 16:10:50.000000000 +0100
+@@ -253,27 +253,27 @@
+ #: src/tpb.c:856
+ #, c-format
+ msgid "Invalid xosd timeout \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd Zeitüberschreitung \"%s\". Verwende die Standardzeitüberschreitung \"%s\".\n"
++msgstr "Ungültige xosd Zeitüberschreitung \"%d\". Verwende die Standardzeitüberschreitung \"%d\".\n"
+ 
+ #: src/tpb.c:863
+ #, c-format
+ msgid "Invalid xosd position \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd Position \"%s\". Verwende die Standardposition \"%s\".\n"
++msgstr "Ungültige xosd Position \"%d\". Verwende die Standardposition \"%d\".\n"
+ 
+ #: src/tpb.c:871
+ #, c-format
+ msgid "Invalid horizontal xosd offset \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd horizontale Abstand \"%s\". Verwende die Standardabstand \"%s\".\n"
++msgstr "Ungültige xosd horizontale Abstand \"%d\". Verwende die Standardabstand \"%d\".\n"
+ 
+ #: src/tpb.c:878 src/tpb.c:885
+ #, c-format
+ msgid "Invalid vertical xosd offset \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd vertikale Abstand \"%s\". Verwende die Standardabstand \"%s\".\n"
++msgstr "Ungültige xosd vertikale Abstand \"%d\". Verwende die Standardabstand \"%d\".\n"
+ 
+ #: src/tpb.c:893
+ #, c-format
+ msgid "Invalid shadow xosd offset \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd Schattenabstand \"%s\". Verwende die Standardabstand \"%s\".\n"
++msgstr "Ungültige xosd Schattenabstand \"%d\". Verwende die Standardabstand \"%d\".\n"
+ 
+ #: src/tpb.c:901
+ #, c-format
+@@ -283,7 +283,7 @@
+ #: src/tpb.c:908
+ #, c-format
+ msgid "Invalid outline xosd width \"%d\". Running with the default \"%d\".\n"
+-msgstr "Ungültige xosd Randlinienbreite \"%s\". Verwende die Standardbreite \"%s\".\n"
++msgstr "Ungültige xosd Randlinienbreite \"%d\". Verwende die Standardbreite \"%d\".\n"
+ 
+ #: src/tpb.c:915
+ #, c-format
+@@ -293,7 +293,7 @@
+ #: src/tpb.c:924
+ #, c-format
+ msgid "Invalid xosd alignment \"%d\". Running with default \"%d\".\n"
+-msgstr "Ungültige xosd Ausrichtung \"%s\". Verwende die Standardausrichtung \"%s\".\n"
++msgstr "Ungültige xosd Ausrichtung \"%d\". Verwende die Standardausrichtung \"%d\".\n"
+ 
+ #: src/tpb.c:948
+ #, c-format
+@@ -551,12 +551,12 @@
+ #: src/cfg.c:1575
+ #, c-format
+ msgid "   -m, --mixer=STATE    use OSS software mixer [%s]\n"
+-msgstr "   -m, --mixer=ZUSTAND    Benutzt den OSS Software Mixer [off]\n"
++msgstr "   -m, --mixer=ZUSTAND    Benutzt den OSS Software Mixer [%s]\n"
+ 
+ #: src/cfg.c:1577
+ #, c-format
+ msgid "   -o, --osd=STATE      show informations as on-screen display [%s]\n"
+-msgstr "   -o, --osd=ZUSTAND      Zeigt Informationen auf dem Bildschirm [on]\n"
++msgstr "   -o, --osd=ZUSTAND      Zeigt Informationen auf dem Bildschirm [%s]\n"
+ 
+ #: src/cfg.c:1579
+ #, c-format
+@@ -611,17 +611,17 @@
+ #: src/cfg.c:1589
+ #, c-format
+ msgid "   -A, --apm=STATE      poll /proc/apm for apm information [%s]\n"
+-msgstr "   -A, --apm=ZUSTAND      /proc/apm für apm Informationen abfragen [off]\n"
++msgstr "   -A, --apm=ZUSTAND      /proc/apm für apm Informationen abfragen [%s]\n"
+ 
+ #: src/cfg.c:1590
+ #, c-format
+ msgid "   -P, --powermgt=STATE display of power management messages [%s]\n"
+-msgstr "   -P, --powermgt=ZUSTAND Zeigt Power Management Meldungen an [auto]\n"
++msgstr "   -P, --powermgt=ZUSTAND Zeigt Power Management Meldungen an [%s]\n"
+ 
+ #: src/cfg.c:1591
+ #, c-format
+ msgid "   -x, --xevents=STATE  grab X11 events of special keys [%s]\n"
+-msgstr "   -x, --xevents=STATE  Abfangen von X11 Ereignissen von Spezialtasten [on]\n"
++msgstr "   -x, --xevents=STATE  Abfangen von X11 Ereignissen von Spezialtasten [%s]\n"
+ 
+ #: src/cfg.c:1592
+ #, c-format
