@@ -9,7 +9,12 @@ Source0:	http://savannah.nongnu.org/download/tpb/%{name}-%{version}.tar.gz
 # Source0-md5:	563b544fbedcc1763130a0bca1ad63b6
 Source1:	%{name}-pl.po
 Patch0:		%{name}-lang_pl.patch
+Patch1:		%{name}-po-de.patch
 URL:		http://savannah.gnu.org/projects/tpb/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	libtool
 BuildRequires:	xosd-devel >= 2.0.0
 Requires:	xosd >= 2.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,12 +32,18 @@ wspiera równie¿ OSD (d¼wiêk, kontrast LCD).
 %prep
 %setup -q
 cp %{SOURCE1} po/pl.po
-
 %patch0 -p1
+%patch1 -p1
 
 %build
-%configure2_13
-
+install -d newaclocal
+cp -f aclocal/libxosd*.m4 newaclocal
+%{__gettextize}
+%{__libtoolize}
+%{__aclocal} -I newaclocal
+%{__automake}
+%{__autoconf}
+%configure
 %{__make}
 
 
