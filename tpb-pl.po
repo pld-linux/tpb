@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tpb\n"
+"Project-Id-Version: 0.6.4\n"
 "POT-Creation-Date: 2003-03-13 08:02+0100\n"
 "PO-Revision-Date: 2003-04-10 14:29+0100\n"
 "Last-Translator: Micha³ Podyma <misiek@r-h.pl>\n"
