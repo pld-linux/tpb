@@ -1,5 +1,5 @@
 Summary:	Utility to enable the IBM ThinkPad(tm) special keys
-Summary(pl):	Narzêdzie uaktywniaj±ce klawisze specjalne w notebookach IBM ThinkPad(tm)
+Summary(pl.UTF-8):   NarzÄ™dzie uaktywniajÄ…ce klawisze specjalne w notebookach IBM ThinkPad(tm)
 Name:		tpb
 Version:	0.6.4
 Release:	1
@@ -24,10 +24,10 @@ This program enables the IBM Thinkpad(tm) special keys. It is possible
 to bind a program to the ThinkPad button. It has a on-screen display
 (OSD) to show volume, mute and brightness of the LCD.
 
-%description -l pl
+%description -l pl.UTF-8
 Program ten uaktywnia klawisze specjalne w notebookach IBM
-ThinkPad(tm). Umo¿liwia równie¿ programowanie przycisków specjalnych,
-wspiera równie¿ OSD (d¼wiêk, kontrast LCD).
+ThinkPad(tm). UmoÅ¼liwia rÃ³wnieÅ¼ programowanie przyciskÃ³w specjalnych,
+wspiera rÃ³wnieÅ¼ OSD (dÅºwiÄ™k, kontrast LCD).
 
 %prep
 %setup -q
