@@ -13,7 +13,7 @@ Patch1:		%{name}-po-de.patch
 URL:		http://savannah.gnu.org/projects/tpb/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libtool
 BuildRequires:	xosd-devel >= 2.0.0
 Requires:	xosd >= 2.0.0
